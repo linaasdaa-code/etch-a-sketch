@@ -1,6 +1,8 @@
 #container {
-  width: 480px;
-  height: 480px;
+  .square {
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+}
   display: flex;
   flex-wrap: wrap;
   border: 2px solid black;
@@ -11,4 +13,8 @@
   height: 30px;
   box-sizing: border-box;
   border: 1px solid #ddd;
+}
+
+.square.drawn {
+  background-color: black;
 }
